@@ -1,0 +1,34 @@
+Dates - 31st - 1st
+
+Overview - 
+	•3 rounds, namely A, B, C, each with increasing difficulty.
+	•Each round would be of 2 hours, making the total running time of the contest to be that of 6 hours.
+	•The platform of choice is going to be Codeforces (the rounds would be held in morning-afternoon slot, to allow time for other events, and also to be away from server-overload problems)
+	•Scoring - 
+		•Easy - 100
+		•Medium - 300
+		•Difficult - 500
+	•For in-contest rules, standard rules of Codeforces contest would apply.
+	•Each round would have it's own top X placeholders.
+	•Results for each round would be revealed within the next 2 hours of round end.
+	•Cumulatative results would be revealed after 2 hours of the Round C's results.
+	•If a person wins in 2 or more rounds, his entry for hall of placholders would only be counted only ONCE, in such cases the immediate next rankholder who has not made an appearance in the hall of placeholders would be considered.
+	•All rounds can be attempted individually by all the participants i.e. there is no pre-reuqisite that must be fulfilled to enter any round.
+	•Invitation links for all the rounds would be given 2 hours prior to the said round.
+
+
+Round Specific -
+	•Round A [31st - 1030 ~ 1230]
+		•Round A would have 6 questions -> 4 Easy, 2 Medium
+		•X = 3
+
+	•Round B [31st - 1400 ~ 1600]
+		•Round B would have 4 questions -> 1 Easy, 2 Medium, 1 Difficult
+		•X = 5
+
+	•Round C [1st - 1300 ~ 1500]
+		•Round C would have 3 questions -> Difficult ~ Medium
+		•Scoring for each problem would be hidden in this round (Just for fun :p)
+		•X = 7
+
+/*May The Force Be With Us*/

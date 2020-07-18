@@ -1,0 +1,27 @@
+Statement -
+	Uryumun being a dummy dumb-sumb child, is not able to solve his homework on "Binary Numbers", as it's the third year since you have "borrowed" his PS4 you are obliged to solve the said homework for him or else you would have to return his PS4 back to him.
+	So, hurry up and solve the problem, you have a race to win in Gran Turismo afterall.
+	Homework:
+		You have been provided with an integer N, find the first number after N having the same number of 1s in it's binary representation as that of N's.
+
+INPUT
+	Input starts with an integer T (≤ 65), denoting the number of test cases.
+	Each case begins with an integer N (1 ≤ N ≤ 10^9).
+
+OUTPUT
+	For each case of input you have to print the desired result.
+
+Sample
+	INPUT
+		5
+		23
+		14232
+		391
+		7
+		8
+	OUTPUT
+		27
+		14241
+		395
+		11
+		16

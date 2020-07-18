@@ -1,0 +1,24 @@
+Statement - 
+	helewrer3 has a sequence A = [A1, A2, ..., An] of length n. 
+	He considers the sequence B = [B1, B2, ..., Bn] ch4d if the gcd of all its elements is bigger than 1, i.e. gcd(B1, B2, ..., Bn) > 1.
+
+	helewrer3 wants to change his sequence in order to make it ch4d. 
+	In one move he can choose an index i (1 ≤ i < n), delete numbers Ai, A(i+1) and put numbers Ai - A(i+1), Ai + A(i+1) in their place instead, in this order. 
+	He wants perform as few operations as possible. 
+	Find the minimal number of operations to make sequence A ch4d if it's possible, or tell him that it is impossible to do so.
+
+	gcd(B1, B2, ..., Bn) is the biggest non-negative number d such that d divides bi for every i (1 ≤ i ≤ n).
+
+INPUT -
+	The first line contains a single integer n (2 ≤ n ≤ 100 000) — length of sequence A.
+	The second line contains n space-separated integers A1, A2, ..., An (1 ≤ a i ≤ 10^9) — elements of sequence A.
+
+OUTPUT -
+	Output on the first line "YES" (without quotes) if it is possible to make sequence A ch4d by performing operations described above, and "NO" (without quotes) otherwise.
+	If the answer was "YES", output the minimal number of moves needed to make sequence A ch4d.
+
+Sample -
+	2
+	1 1
+	YES
+	1

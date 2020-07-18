@@ -1,0 +1,34 @@
+Statement - 
+	Priyansh has had a crush on his best friend, Priyanshi, for the longest time.
+	Today is the day he finally confesses his feelings for her, however fearing rejection, he asks an astrologer to fortell his future before confessing his true feelings.
+	The astologer tells him about a certain game, if Priyansh wins that game against Priyanshi, then his feelings would be reciprocated and he would stop being a single, however if he were to lose, then he would have to say bye-bye to Priyanshi forever.
+	Luckily, Priyansh wins the game, so let's leave those two alone and focus on the actual game.
+	Game is played in a 1 x n board.
+	The cells are numbered from 0 to n-1, where the left most cell is marked as cell 0. Each cell can contain at most one piece.
+	There are two kinds of pieces, gray and white. Priyansh moves all gray pieces, and Priyanshi moves all white ones. 
+	The pieces alternate, that is, leftmost piece is gray, next is white, next to that is gray, then it's white again, and so on. 
+	There will always be equal number of black and gray pieces. Priyansh can only move pieces to the right. Priyanshi can only move pieces to the left.
+	At each move, a player selects one piece and moves that piece, either to its left (Priyanshi) or to its right (Priyansh), any number of cells (at least 1) but, it can neither jump over other pieces, nor it can move outside the board. The players alternate their turns.
+	Priyansh moves first. The game ends, when someone is unable to make any move, and loses the game. You can assume that, both of them play optimally (that is, if it is possible to apply a strategy that will ensure someone's win, he/she will always use that strategy).
+	Now you are given a configuration of a board, you have to find the winner.
+
+Input -
+	Input starts with an integer T (≤ 25), denoting the number of test cases.
+	Each case starts with a line containing an integer k (1 ≤ k ≤ 100) denoting the number of gray pieces in the board. 
+	The next line contains 2k distinct integers (in ascending order) denoting the position of the pieces. The first integer denotes a gray piece, the second integer denotes a white piece, the next integer denotes a gray piece and so on. 
+	All the integers will lie in the range [0, 10^9]. 
+	Assume that n is sufficiently large to contain all the pieces. And at least one move is remaining.
+
+Output -
+	For each case, print 'Priyansh' or 'Priyanshi' depending on the winner of the game.
+
+Sample -
+	INPUT
+		2
+		2
+		0 3 7 9
+		2
+		1 3 7 9
+	OUTPUT
+		Priyansh
+		Priyanshi

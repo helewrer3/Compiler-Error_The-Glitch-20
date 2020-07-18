@@ -1,0 +1,31 @@
+Statement -	
+	As if not caring about the lockdown, Pranay went on a trip to Bawanaland.
+	There his passport was robbed by the renegade Snek, Ritik. Being a fair and just Snek, Ritik offered Pranay a game to wing back his passport.
+	Obviously, Pranay agreed and by the spirits of mongoose, he won back his passport, leaving the Snek to back into it's books.
+	Now let's leave Pranay alone and focus on the said game.
+	You have been given 2 integers X and Y, you can perform 2 types of operations:
+		1) Pay 'a' fucchas (the local currency of Bawanaland), and decrease or increase ANY of these integers by 1.
+		2) Pay 'b' fucchas, and decrease or increase BOTH of the integers by 1.
+	Your goal is to make both the integers equal to zero simultaneously (X = Y = 0).
+	Calculate the minimum amount of fucchas you need to spend to do it.
+
+INPUT - 
+	First line contains, T (1 - 100), the number of testcases.
+	The first line of each T contains 2 integers X and Y (0 - 10^9)
+	The second line of each T contains 2 integers a and b (0 - 10^9)
+
+OUTPUT -
+	For each test case print one integer — the minimum amount of fucchas you have to spend.
+
+SAMPLE - 
+	2
+	1 3
+	391 555
+	0 0
+	9 4
+
+	1337
+	0
+
+Scoring - 
+	100

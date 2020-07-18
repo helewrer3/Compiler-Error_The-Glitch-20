@@ -1,0 +1,24 @@
+﻿Statement - 
+	Garvit was holding a birthday party, however no-one came to attend it as he had no friends.
+	To fight boredom (and sadness) he decided to play a game!
+	For that he gifted himself a string S, and 2 empty strings T and U.
+	The game has two possible moves - 
+		•Extract the first character of S and append T with this character. 
+		•Extract the last character of T and append U with this character.
+	The goal of the game is to get strings S and T empty and string U lexicographically minimal.
+	You decided to try the game out yourself and write the code that would help you win the game everytime.
+
+INPUT - 
+	First line contains non-empty string S (1 ≤ |s| ≤ 10^5), consisting of lowercase English letters.
+
+Scoring - 
+	300
+
+OUTPUT -
+	Print resulting string U.
+
+Sample
+	cab
+	abc
+
+Scoring - 300

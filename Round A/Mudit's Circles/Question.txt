@@ -1,0 +1,36 @@
+Statement -
+	JEE aspirant Mudit loves maths, and regularly challenges himself on quirky math problems. He recently completed the chapter "Circles", bored by the questions asked in JEE Advanced, he devised his own problem to pass time.
+	He has a sequence of upper semi-circles and another of lower semi-circles.
+	The first set consists of N upper semi-circles indexed 1 to N and the second has M lower semi-circles indexed 1 to M. 
+	The semi-circles in any sequence can have different radii.
+	He is now set out on building circles using them.
+	To build a circle of radius R, he must take one upper half of the radius R and one lower half of the radius R.
+	Also, he can put a circle into a bigger one and create a sequence of nested concentric circles. 
+	But he can't put two or more circles directly into another one.
+	Examples:
+		<!-- Link to image explaining the orientation of circles -->
+	If there is a sequence of (D+1) nested circles, we can call this sequence as a D-sequence.
+		<!-- Link to image explaining the sequence of circles -->
+	Mudit has to find out how many different X-sequence are possible (1 <= X <= C). An X sequence is different from another if the index of any of the hemisphere used in one X-sequence is different from the other.
+	Mudit solved the problem in less than 5 minutes and became bore again, to pass his time, he asked you to do the same problem and is now laughing at the puny you trying to solve the problem, quickly solve this problem so you can end your suffering and continue binging anime again.
+
+INPUT -
+	The first line contains a three integers: N denoting the number of upper circle halves, M denoting the number of lower circle halves and C.
+	The second line contains N space-separated integers U1, U2, ..., UN denoting the radii of upper semi-circles.
+	The third line contains M space-separated integers L1, L2, ..., LM denoting the radii of lower semi-circles. 
+    1 ≤ N ≤ 10^5
+    1 ≤ M ≤ 10^5
+    1 ≤ C ≤ 10^3
+    1 ≤ Ui ≤ C
+    1 ≤ Li ≤ C
+
+OUTPUT -
+	Output a single line containing C space-separated integers D1, D2, ..., DC, where Di is the number of ways there are to build i-sequence in modulo 10^9+7.
+
+Sample
+	INPUT
+		3 4 3
+		1 2 3
+		1 1 3 2
+	OUTPUT
+		5 2 0

@@ -1,0 +1,25 @@
+Statement - 
+Setwet owns a very long fish pond. He plans to breed different types of carps in the upcoming breeding season. The area, however, is full of seagulls and Setwet fears that they might prey on most of the carps. For this reason, he has decided to place some seagulls-killing sharks (sharks hate carps' flavor and won't ever eat them) at different locations of the fish pond.
+The fish pond can be modeled as a 1 x N grid. Some parts of the fish pond are dried out and that means you cannot breed any carps on them. A scarecrow, when placed on a spot, covers the cell to its immediate left and right along with the cell it is on.
+Given the description of the fish pond, what is the minimum number of sharks that needs to be placed so that all the useful section of the fish pond is covered? Useful section refers to cells where carps can be bred.
+
+INPUT -
+Input starts with an integer T (≤ 50), denoting the number of test cases.
+Each case starts with a line containing an integer N (0 < N < 100). The next line contains N characters that describe the pond. A dot (.) indicates a carp-breeding spot and a hash (#) indicates a dried out region.
+
+OUTPUT -
+	For each case, print the number of sharks that need to be placed.
+
+Sample -
+	INPUT
+3
+3
+.#.
+11
+...##....##
+2
+##
+	OUTPUT
+1
+3
+0

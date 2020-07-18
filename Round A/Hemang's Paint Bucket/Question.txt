@@ -1,0 +1,40 @@
+Question 
+	Statement - 
+		Our renegade fuccha artist Hemang was making posters for The Glitch, however as the spirits of Bob Ross were asleep that day, his paint bucket option in PS stopped working! Luckily Hemang knows you, the best coder in your house, and has asked you design an efficient paint bucket program to allow Hemang continue making his posters. Given a matrix, your task is to output the number of pixels that get colored (or get filled) when using the paint bucket function on the starting pixel provided by Hemang provided the paint does not overspill i.e. does not color the boundary pixels. Hurry, due to inevitable procrastination Hemang has only an afternoon to make all the posters, only you can help Hemang out.
+
+	Input 
+		First line of the input contains T, number of testcases ranging from 1 to 500
+		Each testcase starts with 2 integers ROW and COL, denoting the row and collumn count of the given matrix. ROW and COL are not more than 20. 
+		The next ROW lines contains COL characters, forming the matrix given to you. 
+		Legend 
+			•'.' - Empty pixel 
+			•'#' - Boundary pixel
+			•'@' - Starting pixel provided by Hemang
+
+Output -
+	A single like containing ANS, the number of pixels colored by the paint bucket program 
+Sample -
+	INPUT 
+		2 
+		9 6
+		.....#
+		......
+		......
+		......
+		......
+		......
+		#@...#
+		.#..#.
+		9 11
+		.#.........
+		.#.#######.
+		.#.#.....#.
+		.#.#.###.#.
+		.#.#..@#.#.
+		.#.#####.#.
+		.#.......#.
+		.#########.
+		...........
+
+	OUTPUT 
+		45 59 
